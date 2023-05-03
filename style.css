@@ -1,0 +1,82 @@
+/* ------------------ GLOBAL CSS ------------------ */
+* {
+  font-family: system-ui;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #000;
+}
+
+/* ------------------- PARAGRAPH ------------------- */
+p {
+  color: #fff;
+  white-space: pre-line;
+}
+
+/* ----------------- CENTERED TEXT ----------------- */
+.c {
+  width: 40%;
+  display: flex;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* --------------------- IMAGE --------------------- */
+img {max-height: 100%; max-width: 100%;}
+
+/* -------------------- HEADER -------------------- */
+/* Header text-alignment & animation */
+header {text-align: center;}
+/* Header image fade-in animation */
+.fi {animation: fade-in .4s;}
+/* Header animation settings */
+@keyframes fade-in {from {opacity: 0;} to {opacity: 1;}}
+
+/* -------------------- NAVBAR -------------------- */
+/* Nav list */
+nav, nav ul {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+/* Nav list item */
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+/* Nav link */
+nav a {
+  color: #fff;
+  font-weight: 800;
+  display: block;
+  padding: 18px;
+  text-decoration: none;
+}
+
+/* Nav link:hover */
+nav a:hover {color: #000;background: #fff;}
+
+/* Dropdown content */
+nav .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  text-align: center;
+}
+
+/* Dropdown list item */
+nav .dropdown li {width: 84px;}
+
+/* Nav link:hover > dropdown (Make dropdown materialize) */
+nav li:hover > .dropdown {display: block;}
+
+/* Gold link background color */
+nav #gold {background: #ea0;}
+
+/* Active link background color */
+#active {background: #0ee;}
