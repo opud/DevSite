@@ -43,17 +43,11 @@ nav, nav ul {
   z-index: 99;
 }
 
-/* Nav list item */
-nav li {
-  display: inline-block;
-  position: relative;
-}
-
 /* Nav link */
 nav a {
   color: #fff;
   font-weight: 800;
-  display: block;
+  display: inline-block;
   padding: 18px;
   text-decoration: none;
 }
@@ -68,9 +62,6 @@ nav .dropdown {
   top: 100%;
   text-align: center;
 }
-
-/* Dropdown list item */
-nav .dropdown li {width: 84px;}
 
 /* Nav link:hover > dropdown (Make dropdown materialize) */
 nav li:hover > .dropdown {display: block;}
