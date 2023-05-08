@@ -59,7 +59,7 @@ nav a {
 }
 
 /* Nav link:hover */
-nav a:hover {color: #000;background: #fff;}
+nav a:hover {color: #000; background: #fff}
 
 /* Dropdown content */
 nav .dropdown {
@@ -76,7 +76,7 @@ nav .dropdown li {width: 84px;}
 nav li:hover > .dropdown {display: block;}
 
 /* Gold link background color */
-nav #gold {background: #ea0;}
+.gold {background: #ea0;}
 
 /* Active link background color */
-#active {background: #0ee;}
+.active {background: #0ee;}
