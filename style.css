@@ -71,3 +71,27 @@ nav li:hover > .dropdown {display: block;}
 
 /* Active link background color */
 .active {background: #0ee;}
+
+/* --------------------- GRID --------------------- */
+.social-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0 15%;
+}
+/* Social grid item */
+.social-grid-i {
+  font-weight: 700;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  border: 2px solid #fff;
+  transition: .22s;
+}
+
+.social-grid-i:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.yt {background-color: #f00}
+.twitter {background-color: #1DA1F2}
