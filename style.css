@@ -76,7 +76,7 @@ nav li:hover > .dropdown {display: block;}
 .social-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 15%;
+  margin: 0 10%;
 }
 /* Social grid item */
 .social-grid-i {
