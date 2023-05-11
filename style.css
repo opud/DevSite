@@ -84,14 +84,11 @@ nav li:hover > .dropdown {display: block;}
   color: #fff;
   padding: 1em 0;
   text-align: center;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   transition: .22s;
 }
 
-.social-grid-i:hover {
-  border-left-width: 3rem;
-  border-right-width: 3rem;
-}
+.social-grid-i:hover {text-decoration: underline;}
 
 .yt {background-color: #f00;}
 .twitter {background-color: #1d9bf0;}
