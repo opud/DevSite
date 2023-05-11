@@ -89,8 +89,8 @@ nav li:hover > .dropdown {display: block;}
 }
 
 .social-grid-i:hover {
-  background-color: #fff;
-  color: #000;
+  border-left-width: 3rem;
+  border-right-width: 3rem;
 }
 
 .yt {background-color: #f00;}
