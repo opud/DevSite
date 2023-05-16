@@ -55,16 +55,15 @@ nav a {
 /* Nav link:hover */
 nav a:hover {color: #000; background: #fff}
 
-/* Dropdown content */
-nav .dropdown {
+/* Dropdown items */
+nav .dd {
+  top: 100%;
   display: none;
   position: absolute;
-  top: 100%;
-  text-align: center;
 }
 
-/* Nav link:hover > dropdown (Make dropdown materialize) */
-nav li:hover > .dropdown {display: block;}
+/* Display Dropdowns on Links Containing Dropdowns */
+li:hover > .dd {display: block;}
 
 /* Gold link background color */
 .gold {background: #ea0;}
