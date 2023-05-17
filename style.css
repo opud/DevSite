@@ -71,6 +71,12 @@ li:hover > .dd {display: block;}
 /* Active link background color */
 .active {background: #0ee;}
 
+/* When in music/videos/artists */
+.inmenu {
+  padding-right: 8px;
+  background-color: #0ce;
+}
+
 /* --------------------- GRID --------------------- */
 .social-grid {
   display: grid;
