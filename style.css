@@ -44,9 +44,9 @@ nav, nav ul {
 /* Nav link */
 nav a {
   color: #fff;
-  font-weight: 800;
+  font-weight: 700;
   display: inline-block;
-  padding: 18px 15px;
+  padding: 12px;
   text-decoration: none;
 }
 
@@ -70,11 +70,18 @@ li:hover > .dd {display: block;}
 .active {background: #0ee;}
 
 /* When in music/videos/artists */
-.inmenu {
-  padding-right: 8px;
-  background-color: #0ce;
-}
+.inmenu {background-color: #0ce;}
 
+@media all and (max-width: 720px) {
+  nav a {
+    font-size: .8em;
+    padding: 12px 0;
+    text-align: center;
+  }
+  nav li, nav a {
+    width: 20vw;
+  }
+}
 /* --------------------- GRID --------------------- */
 .social-grid {
   display: grid;
