@@ -10,12 +10,10 @@
   padding: 0;
 }
 /* --------------------- TEXT --------------------- */
-/*Paragraph*/
 p {
   color: #fff;
   white-space: pre-line;
 }
-/*Centered Text*/
 .c {
   text-align: center;
 }
