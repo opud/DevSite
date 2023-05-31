@@ -98,3 +98,32 @@ to {opacity: 1;}
 .yt {background-color: #f00;}
 .twitter {background-color: #1d9bf0;}
 .ttv {background-color: #5c16c5;}
+
+/* ------------------ VIDEO LIST ------------------ */
+.videoList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: .5rem;
+}
+
+.videoList a {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  transition: opacity 0.2s;
+}
+
+.videoList a:hover {opacity: .6;}
+
+.videoList img {position: absolute;}
+
+.videoList a div {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  width: 100%;
+  padding: 0.5em 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
