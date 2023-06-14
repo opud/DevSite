@@ -128,4 +128,14 @@ to {opacity: 1;}
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 600px) {
+  .videoList {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .videoList a div {
+    padding: 0.3em 0;
+    font-size: 80%;
+  }
+}
 /* ------------------ VIDEO PAGE ------------------ */
