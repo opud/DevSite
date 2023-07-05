@@ -66,3 +66,23 @@ header div h2 {
     font-size: 0.9em;
   }
 }
+
+p {
+  padding: 1em 0;
+}
+
+.v-music {
+  margin-left: 2em;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+}
+
+.v-music :first-child {
+  grid-area: 1 / 1 / 2 / 3;
+  font-size: 1.5em;
+  font-weight: 600;
+}

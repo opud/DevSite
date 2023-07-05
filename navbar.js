@@ -3,7 +3,7 @@ window.onload = function () {
 // Get the current page URL
   const currentPageUrl = window.location.href;
 
-// Get all navbar links
+// Scan navbar links
   const navLinks = document.querySelectorAll('#nav > li > a');
 
 // Loop through the links and check if the URL contains the text in the link's href attribute
