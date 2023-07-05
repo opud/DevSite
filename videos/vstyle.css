@@ -86,3 +86,7 @@ p {
   font-size: 1.5em;
   font-weight: 600;
 }
+
+.v-music > a:hover {
+  color: #0de;
+}
